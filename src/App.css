@@ -1,0 +1,369 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-image: linear-gradient(to bottom, #032d6b, #0e3a84, #1a499d, #2457b7, #2f66d2);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+/* Barra de navegacion  */
+
+.btn-watch{
+  margin-top: -20px;
+}
+h2{
+  font-size: 18px;
+  width: 100px;
+ 
+}
+
+.image-bar-nav-container{
+  width: 150px;
+  padding: 15px;
+}
+
+.input-description{
+  height: 150px;
+  width: 220px;
+  margin-left: 12.5px;
+}
+
+.image-bar-nav{
+  margin-left: 50px;
+  width: 100px;
+  height: 150px;
+}
+
+.bar-nav-rigth-container{
+  width: 250px;
+  height: 100vh;
+  background-color: #111;
+
+}
+
+.list-presentacion{
+  background-image: linear-gradient(to bottom, #09b80d, #248c0e, #25630e, #1e3d0d, #121b05);
+
+}/* contenedor central */
+
+.react-container{
+  display: flex;
+  flex-direction: row;
+  width: 800px;
+  margin-left: 25%;
+    border-radius: 10px;
+}
+
+body{
+  background-color: #222;
+  padding: 100px;
+}
+
+/* Cards */
+.card-container{
+  height: auto + 10px;
+background-color: #111;
+  color: white;
+  font-style: italic;
+  border: 2px solid white;
+  box-shadow: 0 0 3px whitesmoke;
+  padding: 5px;
+}
+
+.btn-add{
+  background-image: radial-gradient(circle, #039a07, #217606, #235508, #1d3509, #121902);
+  border-radius: 20px;
+  color: white;
+  font-style: italic;
+  margin-top: 5px;
+}
+
+.file-image{
+
+  color: white;
+  border-radius: 20px;
+  font-style: italic;
+  margin-top: 5px;
+}
+
+.close-window{
+  margin-left: 90%;
+  margin-top: 0;
+}
+
+.close-window:hover{
+  cursor: pointer;
+
+}
+
+.image-card{
+  width: 100px;
+  height: 100px;
+  padding-left: 125px;
+  margin-top: 25px;
+  border-radius: 20px;
+}
+.card-content-cpntainer{
+  display: flex;
+  flex-direction: row;
+}
+
+.description-container{
+  visibility: hidden;
+  background-color: #111;
+  position: fixed;
+  width: 300px;
+  height: 200px;
+  left: 55%px;
+  top: 100px;
+  color: white;
+  font-style: italic;
+  border: 2px solid white;
+  box-shadow: 0 0 3px whitesmoke;
+  padding: 5px;
+  font-size: 18px;
+}
+.description-container.active{
+  visibility: visible;
+  
+}
+
+#homework{
+  width: 20px;
+}
+
+
+/* body */
+
+.list-presentacion{
+  padding: 5px;
+  width: 400px;
+}
+
+@media(min-width: 320px){
+  .react-container{
+    display: flex;
+    flex-direction: row;
+    width: 800px;
+    height: 100vh;
+    margin-left: 25%;
+      border-radius: 10px;
+  }
+ 
+.bar-nav-rigth-container{
+  width: 250px;
+  height: 1500px;
+  background-color: #111;
+padding: 10px;
+}
+
+.list-presentacion {
+  padding: 5px;
+  width: 400px;
+  height: 1500px;
+}
+
+
+.description-container{
+  visibility: hidden;
+  background-color: #111;
+  position: fixed;
+  width: 230px;
+  height: 300px;
+  left: 15%;
+  top: 1000px;
+  color: white;
+  font-style: italic;
+  border: 2px solid white;
+  box-shadow: 0 0 3px whitesmoke;
+  padding: 5px;
+  font-size: 18px;
+}
+
+.input-description {
+  height: 250px;
+  width: 220px;
+  margin-left: 12.5px;
+  font-size: 18px;
+}
+
+
+}
+
+
+@media (min-width: 460px){
+ 
+.description-container{
+  visibility: hidden;
+  background-color: #111;
+  position: fixed;
+  width: 230px;
+  height: 300px;
+  left: 17.5%;
+  top: 900px;
+  color: white;
+  font-style: italic;
+  border: 2px solid white;
+  box-shadow: 0 0 3px whitesmoke;
+  padding: 5px;
+  font-size: 18px;
+}
+
+}
+
+@media(min-width: 580px){
+  .description-container{
+    visibility: hidden;
+    background-color: #111;
+    position: fixed;
+    width: 230px;
+    height: 300px;
+    left: 20.5%;
+    top: 900px;
+    color: white;
+    font-style: italic;
+    border: 2px solid white;
+    box-shadow: 0 0 3px whitesmoke;
+    padding: 5px;
+    font-size: 18px;
+  }
+}
+
+@media(min-width: 720px){
+  .description-container{
+    visibility: hidden;
+    background-color: #111;
+    position: fixed;
+    width: 400px;
+    height: 200px;
+    left: 46.5%;
+    top: 100px;
+    color: white;
+    font-style: italic;
+    border: 2px solid white;
+    box-shadow: 0 0 3px whitesmoke;
+    padding: 5px;
+    font-size: 18px;
+  }
+
+
+  .image-bar-nav-container {
+    width: 150px;
+    padding: 15px;
+    margin-left: 20%;
+}
+
+
+
+.image-bar-nav{
+  margin-left: 50px;
+  width: 150px;
+  height: 200px;
+}
+}
+
+@media(min-width: 860px){
+  .description-container{
+    visibility: hidden;
+    background-color: #111;
+    position: fixed;
+    width: 400px;
+    height: 200px;
+    left: 48.5%;
+    top: 100px;
+    color: white;
+    font-style: italic;
+    border: 2px solid white;
+    box-shadow: 0 0 3px whitesmoke;
+    padding: 5px;
+    font-size: 18px;
+  }
+ 
+}
+
+@media(min-width: 1024px){
+  .description-container{
+    visibility: hidden;
+    background-color: #111;
+    position: fixed;
+    width: 400px;
+    height: 200px;
+    left: 48%;
+    top: 100px;
+    color: white;
+    font-style: italic;
+    border: 2px solid white;
+    box-shadow: 0 0 3px whitesmoke;
+    padding: 5px;
+    font-size: 18px;
+  }
+
+}
+
+@media(min-width: 1280px){
+  .description-container{
+    visibility: hidden;
+    background-color: #111;
+    position: fixed;
+    width: 400px;
+    height: 200px;
+    left: 48.5%;
+    top: 100px;
+    color: white;
+    font-style: italic;
+    border: 2px solid white;
+    box-shadow: 0 0 3px whitesmoke;
+    padding: 5px;
+    font-size: 18px;
+  }
+
+}
+
+@media (min-width: 1440px){
+  .description-container{
+    visibility: hidden;
+    background-color: #111;
+    position: fixed;
+    width: 425px;
+    height: 200px;
+    left: 45.5%;
+    top: 100px;
+    color: white;
+    font-style: italic;
+    border: 2px solid white;
+    box-shadow: 0 0 3px whitesmoke;
+    padding: 5px;
+    font-size: 18px;
+  }
+
+}
